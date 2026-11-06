@@ -1,0 +1,46 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      # Keep the model loaded in RAM for 30 min between requests (default is 5 min)
+      - OLLAMA_KEEP_ALIVE=30m
+      # Default context window in tokens. Larger = more RAM. Supported in recent
+      # Ollama versions; on older ones set num_ctx per request instead.
+      - OLLAMA_CONTEXT_LENGTH=8192
+    # Leave headroom for the OS on a 32 GB machine
+    mem_limit: 24g
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    # --- NVIDIA GPU (uncomment if you have one + NVIDIA Container Toolkit) ---
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # One-shot job: pulls a model into the shared volume, then exits
+  model-pull:
+    image: ollama/ollama:latest
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    entrypoint: ["ollama"]
+    command: ["pull", "llama3.2"]
+    restart: "no"
+
+volumes:
+  ollama_data:

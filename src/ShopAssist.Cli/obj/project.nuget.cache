@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "pZ+9jZc9TPc=",
+  "success": true,
+  "projectFilePath": "E:\\Agentic_AI_Tutorial\\ShopAssistant\\src\\ShopAssist.Cli\\ShopAssist.Cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.ai\\10.11.0\\microsoft.extensions.ai.10.11.0.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.11.0\\microsoft.extensions.ai.abstractions.10.11.0.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.ai.openai\\10.11.0\\microsoft.extensions.ai.openai.10.11.0.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.13\\microsoft.extensions.caching.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.14\\microsoft.extensions.configuration.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.14\\microsoft.extensions.configuration.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\10.0.14\\microsoft.extensions.configuration.environmentvariables.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.14\\microsoft.extensions.configuration.fileextensions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.14\\microsoft.extensions.configuration.json.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.9\\microsoft.extensions.diagnostics.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.14\\microsoft.extensions.fileproviders.abstractions.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.14\\microsoft.extensions.fileproviders.physical.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.14\\microsoft.extensions.filesystemglobbing.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\10.0.9\\microsoft.extensions.hosting.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.options\\10.0.9\\microsoft.extensions.options.10.0.9.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.14\\microsoft.extensions.primitives.10.0.14.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\ollamasharp\\5.5.2\\ollamasharp.5.5.2.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\openai\\2.14.0\\openai.2.14.0.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\system.clientmodel\\1.15.0\\system.clientmodel.1.15.0.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\system.memory.data\\10.0.9\\system.memory.data.10.0.9.nupkg.sha512",
+    "C:\\Users\\Himadri\\.nuget\\packages\\system.numerics.tensors\\10.0.13\\system.numerics.tensors.10.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

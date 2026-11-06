@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ShopAssist.Cli/ShopAssist.Cli.csproj" />
+    <Project Path="src/ShopAssist.Core/ShopAssist.Core.csproj" />
+  </Folder>
+</Solution>
